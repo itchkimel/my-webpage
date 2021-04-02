@@ -1,3 +1,39 @@
 body {
-  background: #A5C4D4;
+  background-image: url('./images/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#header {
+  padding: 1em 1.5em 0 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px 15px 8px 15px;
+  margin: auto;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: #C00;
+}
+
+footer p {
+  text-align: inherit;
+  text-align: left;
+}
+
+.notbold {
+  font-weight: 50%;
 }
